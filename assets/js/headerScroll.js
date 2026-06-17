@@ -2,7 +2,7 @@ let hasScrolled = false;
 
 function scrollFunction() {
   if (!hasScrolled && (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5)) {
-    document.getElementById("headerScroll").style.height = "90px";
+    document.getElementById("headerScroll").style.height = "60px";
     document.getElementById("slideshow").style.height = "auto";
     document.querySelector("header").style.marginBottom = "0";
     document.querySelector("header").style.transition = ".4s";
